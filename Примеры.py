@@ -58,7 +58,51 @@
 #print("В данном количестве килограмм, данное количетво фунтов:", pound)
 
 #011
-max = float(input("Введите число больше 100 "))
-min = float(input("Введите число меньше 10 "))
-conclusion = int(max // min)
-print("Данное число:", min,"помещается в числе", max,"данное количество раз", conclusion)
+# max = float(input("Введите число больше 100 "))
+# min = float(input("Введите число меньше 10 "))
+# conclusion = int(max // min)
+# print("Данное число:", min,"помещается в числе", max,"данное количество раз", conclusion)
+
+#012
+# num1 = int(input("Введите первое чилсо: "))
+# num2 = int(input("Введите второе число: "))
+# if num1 > num2:
+#     print("Число" ,num2," меньше", "числа ", num1)
+# else:
+#     print("Число" ,num1," меньше", "числа ", num2)
+
+#013
+# number = int(input("Введите число меньше 20: "))
+# if number >= 20:
+#     print("Неправильно")
+# else:
+#     print("Спасибо")
+
+#014
+# digit = int(input("Ведите число от 10 до 20: "))
+# if digit >=10 and digit <= 20:
+#     print("Правильно")
+# else:
+#     print("Неправильно")
+
+#015
+# from enum import Enum
+# Blue = 'blue'
+# color = input("Введите ваш любимый цвет ")
+# if color == 'blue':
+#     print("Мне тоже нравится", color, "цвет ")
+# else:
+#     print("Извини, мне больше нраввится ", color, "цвет")
+
+#016
+# weather = str.lower(input("Идет ли дождь на улице? "))
+# if weather == "yes":
+#     weather = str.lower(input("Ветренно ли на улице? "))
+#     if weather == "yes":
+#         print("Слишком ветренно для зонта ")
+#     else:
+#         print("Не забудьте зонт. ")
+# else:
+#     print("Приятного дня.")
+
+#017
